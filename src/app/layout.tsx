@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import {store} from "@/app/redux/store";
+import {store} from "./redux/store";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
