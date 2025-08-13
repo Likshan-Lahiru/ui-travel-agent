@@ -155,7 +155,7 @@ export default function ChatInterface() {
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         onKeyPress={handleKeyPress}
-                        placeholder="Ask anything about Paris..."
+                        placeholder="Ask anything about travel plan..."
                         className="flex-1 outline-none text-sm"
                         disabled={loading}
                     />
