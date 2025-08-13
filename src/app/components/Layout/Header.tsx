@@ -1,7 +1,8 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { ChevronDownIcon } from 'lucide-react'
-import {RootState} from "@/app/redux/store";
+import { RootState } from "../../redux/store";
+
 
 export const Header = () => {
     const user = useSelector((state: RootState) => state.user)
